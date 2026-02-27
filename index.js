@@ -1,5 +1,6 @@
 import express from "express";
-const port = 3020;
+import "dotenv/config";
+const port = process.env.PORT || 3020;
 const app = express();
 app.use(express.json());
 let groceryList = [];
