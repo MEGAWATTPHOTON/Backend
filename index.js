@@ -1,4 +1,4 @@
-const express = require("express");
+import express from "express";
 const port = 3020;
 const app = express();
 app.use(express.json());
