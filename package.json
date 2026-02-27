@@ -1,0 +1,23 @@
+{
+  "name": "02_express",
+  "version": "1.0.0",
+  "description": "My Express Learning",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "Laudado"
+  ],
+  "author": "Mr Megawatt Photon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
